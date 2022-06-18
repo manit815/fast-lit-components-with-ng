@@ -1,0 +1,3 @@
+[submodule "react-app-ng-element/angular-element/ng-custom-element"]
+	path = react-app-ng-element/angular-element/ng-custom-element
+	url = https://github.com/manit815/ng-custom-element
