@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# React app with Angular elements
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+We are trying to integrate the angular custom element with react. Once the angular element is created, we expose the bundled js to the react app. Looks like the ordering matters in terms of the import. So, import the js files in this order:
+
+import './runtime';
+import './polyfills';
+import './scripts';
+import './main';
+
+And use the custom element like any other web component like <custom-button name="Baker Hughes" /> 
+
 
 ## Available Scripts
 
